@@ -32,3 +32,18 @@ print("After sum: " , sum_of_list)
 list2= [1,9,55,7,0,45,0,4,0]
 print("0s in list are: ", list2.count(0))
 print("Index of first zero: ", list2.index(0))
+
+s = {1,2}
+for i in range(5):
+    set1 = int(input(f"Enter {i+1} number in set "))
+    s.add(set1)
+print(s)
+print(len(s))
+
+#take input of keys and values from user in dictionary and display
+s={}
+for i in range(4):
+    keys = input(f"Enter key {i+1}: ")
+    values = input(f"Enter value {i+1}: ")
+    s.update({keys: values})
+print(s)
